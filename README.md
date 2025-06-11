@@ -1,33 +1,18 @@
-# Expense Management System
+# 💸 SmartSpender: Expense Management System
 
-This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
+SmartSpender is a streamlined and modular application that helps individuals and teams track their expenses with ease. It features a **Streamlit-based frontend** for a clean user interface and a **FastAPI-powered backend** for efficient and scalable API handling.
 
+## 🗂️ Project Structure
 
-## Project Structure
+## ⚙️ Setup Instructions
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
-
-
-## Setup Instructions
-
-1. **Clone the repository**:
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/expense-management-system.git
    cd expense-management-system
-   ```
-1. **Install dependencies:**:   
-   ```commandline
-    pip install -r requirements.txt
-   ```
-1. **Run the FastAPI server:**:   
-   ```commandline
-    uvicorn server.server:app --reload
-   ```
-1. **Run the Streamlit app:**:   
-   ```commandline
-    streamlit run frontend/app.py
-   ```
+pip install -r requirements.txt
+uvicorn backend.server:app --reload
+streamlit run frontend/app.py
+
+
+Let me know if you want it styled in HTML or Markdown with badges, or if you'd like to include a `Dockerfile`, `.env` template, or API example section!
